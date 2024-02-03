@@ -2,9 +2,9 @@
 baseURL = "https://demo.gethugothemes.com/hargo/site/"
 languageCode = "en"
 title = "H&B "
-theme = "hargo-hugo"
+theme = "hb-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
+timeZone = "GMT"
 # post pagination
 paginate = 10 # see https://gohugo.io/extras/pagination/
 # post excerpt
@@ -137,8 +137,8 @@ unsafe = true
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "H&B products for UK's amateur football players"
+author = "H&B"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "51.5223477"
@@ -154,7 +154,7 @@ location = "Warwickshire, England"
 copyright = "| Copyright &copy; Holland & Barrett Retail Limited 2024 [H&B](https://www.hollandandbarrett.com/info/who-we-are/) All Rights Reserved |"
 # Snipcart Credentials
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
-currencySymbol = "$"
+currencySymbol = "£"
 
   # Preloader
   [params.preloader]

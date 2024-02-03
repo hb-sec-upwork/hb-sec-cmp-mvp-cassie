@@ -12,12 +12,12 @@ banner:
   # demo video
   video:
     enable : true
-    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+    videoURL : "https://youtu.be/dObLJVwXdpo?si=icqDaJU5Rp9L69vw"
 
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
+  title : "About Our Products"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
           clita kasd gubergren,"
