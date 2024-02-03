@@ -18,9 +18,11 @@ banner:
 about:
   enable : true
   title : "About Our Products"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
+  content : "Our wellness and health products tailored for UK amateur football players are designed to optimize performance, 
+          aid recovery, and promote overall well-being. From specialized supplements targeting muscle recovery to 
+          personalized training programs, we prioritize the unique needs of amateur football enthusiasts. 
+          Our commitment to quality ensures that players can elevate their game and maintain peak physical condition, 
+          allowing them to enjoy the sport they love while taking care of their health."
   image : "images/about.png"
 
 
