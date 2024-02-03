@@ -9,17 +9,10 @@
     <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.115.1&color=f00&logo=hugo" />
   </a>
 
-  <a href="https://github.com/themefisher/hargo-hugo/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/themefisher/hargo-hugo" alt="license"></a>
 
-  <img src="https://img.shields.io/github/languages/code-size/themefisher/hargo-hugo" alt="code size">
-
-  <a href="https://github.com/themefisher/hargo-hugo/graphs/contributors">
+  <a href="https://github.com/hb-sec-upwork/hb-sec-cmp-mvp/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/themefisher/hargo-hugo" alt="contributors"></a>
 
-  <a href="https://twitter.com/intent/follow?screen_name=gethugothemes">
-    <img src="https://img.shields.io/twitter/follow/gethugothemes?style=social&logo=twitter"
-      alt="follow on Twitter"></a>
 </p>
 
 
