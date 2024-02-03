@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/hargo/site/"
+baseURL = "https://hb-mvp-cmp.netlify.app/"
 languageCode = "en"
 title = "H&B "
 theme = "hb-hugo"
