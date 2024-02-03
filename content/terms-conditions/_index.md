@@ -1,36 +1,25 @@
 ---
-title: "Terms & Conditions"
+title: "Privacy & Cookie Policy"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 description : "this is a meta description"
 ---
 
-### Terms and Condition
+### Privacy Notice
 
-Please read this terms and conditions stated below, which outline a lot of legal goodies, but the bottom line is it’s our aim to always take care of both of us, as a customer, or as a seller. We’ve included many of these terms to legally protect ourselves, but if you have an issue, always feel free to email us at contact@themefisher.com and we’ll do our best to resolve it in a fair and timely way .
+We understand how important your personal information is. This privacy notice will inform you how Holland & Barrett uses and looks after your personal information when you visit and shop with us or use any of our services, use our website, buy products from us, or download and interact with our apps.
 
-### Product Buy & delivery policy
+Our website and apps are not intended for children under the age of 16, and we do not knowingly collect personal information relating to children.
 
-1)All payments are processed securely through PayPal or Stripe. Themefisher does not directly process payments through the website. So any kind of Problem if you face Themefisher will Not Take any responsibility.
+### General Information
 
-### Product Buy & delivery policy
+Personal data means any information that may be used to identify you on its own or, when combined with other information, will enable identification. Sensitive data may include data revealing racial or ethnic origin, or data concerning your health.
 
-Please read this terms and conditions stated below, which outline a lot of legal goodies, but the bottom line is it’s our aim to always take care of both of us, as a customer, or as a seller. We’ve included many of these terms to legally protect ourselves, but if you have an issue, always feel free to email us at contact@themefisher.com and we’ll do our best to resolve it in a fair and timely way .
+### Your Rights
 
-### Refund Policy
+You have several rights in relation to your personal and sensitive data as provided by the UKGDPR, the Data Protection Act 2018 and the General Data Protection Regulation 2016 (GDPR).
 
-1) Since Themefisher is offering non-tangible and irrevocable digital products, we do NOT issue refunds after a purchase is made. If there is a problem with one of the digital download products or if you experience any difficulty with the download, we will fix the problem.
-2) You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by The Themefisher. In the event that you wish to receive a refund, Themefisher will issue you a refund and ask you to specify how the product failed to live up to expectations.
-3) When you make a qualifying return, We’ll credit the full amount, less the handling charges. Refunds are generally processed within 3–5 business days after we receive your claim and find it eligible for a return. Refunds are applied to the original payment option.
+### Shopping With Us
 
-### Support Policy
-1) Since Themefisher is offering non-tangible and irrevocable digital products, we do NOT issue refunds after a purchase is made. If there is a problem with one of the digital download products or if you experience any difficulty with the download, we will fix the problem.
-2) You have 24 hours to inspect your purchase and to determine if it does not meet with the expectations laid forth by The Themefisher. In the event that you wish to receive a refund, Themefisher will issue you a refund and ask you to specify how the product failed to live up to expectations.
-3) When you make a qualifying return, We’ll credit the full amount, less the handling charges. Refunds are generally processed within 3–5 business days after we receive your claim and find it eligible for a return. Refunds are applied to the original payment option.
+When you purchase from us, we need to collect information about you to process the order. We may also use that information to learn more about your browsing and buying habits so that we create tailored products and services we think you’ll be interested in.
 
-### Why We Support:
-
-1. Support covers getting up and help in theme setup
-2. Help using features and theme options
-3. Bug fixes – if you discovered a bug in the theme/Template we will fix it
-4. Functionality which does not work as advertised
