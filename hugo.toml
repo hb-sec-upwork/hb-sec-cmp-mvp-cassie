@@ -122,14 +122,19 @@ unsafe = true
   weight = 3
 
   [[menu.footer]]
-  name = "Terms & Conditions"
-  URL = "terms-conditions/"
+  name = "Privacy Policy"
+  URL = "privacy/"
   weight = 4
 
   [[menu.footer]]
   name = "Contact"
   URL = "contact/"
   weight = 5
+
+  [[menu.footer]]
+  name = "Terms & Conditions"
+  URL = "terms-conditions/"
+  weight = 6
 
 
 #################### default parameters ################################
