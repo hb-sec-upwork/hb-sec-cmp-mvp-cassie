@@ -1,9 +1,8 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
+  title : "Amino Energy Lemon & Lime 270g"
+  content : "ESSENTIAL AMIN.O. ENERGY® is scientifically designed to give you an extra boost before your workout or throughout the day with increased focus and concentration"
   image : "images/banner.png"
   # button
   button:

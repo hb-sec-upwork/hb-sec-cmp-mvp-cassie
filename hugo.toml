@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/hargo/site/"
 languageCode = "en"
-title = "Hargo | Hugo Ecommerce Site"
+title = "H&B "
 theme = "hargo-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
@@ -149,9 +149,9 @@ googleAnalyticsID = "" # Your ID
 # Contact Information
 mobile = "0124857985320"
 email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+location = "Warwickshire, England"
 # copyright
-copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
+copyright = "| Copyright &copy; Holland & Barrett Retail Limited 2024 [H&B](https://www.hollandandbarrett.com/info/who-we-are/) All Rights Reserved |"
 # Snipcart Credentials
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
 currencySymbol = "$"
