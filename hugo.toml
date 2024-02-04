@@ -123,7 +123,7 @@ unsafe = true
 
   [[menu.footer]]
   name = "Privacy & Cookie Policy"
-  URL = "terms-conditions/"
+  URL = "info/privacy-cookie-policy/"
   weight = 4
 
   [[menu.footer]]
