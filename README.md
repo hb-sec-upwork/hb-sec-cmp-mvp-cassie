@@ -66,7 +66,8 @@ $ npm run dev
 ## ⚙️Deployment and hosting
 Deploying on Github Pages
 
-[![GHPage](https://hb-sec-upwork.github.io/hb-sec-cmp-mvp/)
+[GH Actions](https://github.com/hb-sec-upwork/hb-sec-cmp-mvp/actions/workflows/main.yml)
+[GH Live](https://hb-sec-upwork.github.io/hb-sec-cmp-mvp/)
 
 
 <!-- reporting issue -->
