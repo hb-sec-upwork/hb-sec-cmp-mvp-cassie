@@ -1,6 +1,6 @@
 <h1 align=center>H&B MVP-CMP Website</h1> 
 <p align=center> This is a HUGO framework based website which is to be used as a sandbox environment to test out CMPs</p>
-<h2 align="center"><a target="_blank" href="https://hb-mvp-cmp.netlify.app/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fhb-mvp-cmp.netlify.app&form_factor=desktop">Page Speed (80%)🚀</a> </h2>
+<h2 align="center"><a target="_blank" href="https://hb-sec-upwork.github.io/hb-sec-cmp-mvp/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fhb-sec-upwork.github.io%2Fhb-sec-cmp-mvp%2F&form_factor=desktop">Page Speed (80%)🚀</a> </h2>
 
 
 
@@ -24,12 +24,12 @@
 
 ## 🔑Key Features
 
-- 📄 10+ Pre-Designed Pages
+- 📄 10+ Pages
 - 📊 Google Analytics support
 - 🎨 CSS and JS bundle with Hugo Pipe
 - 🅱️ Bootstrap Based
-- ⚙️ Netlify settings predefine
-- ✉️ Contact form Support
+- ⚙️  Netlify settings predefine
+- ✉️  Contact form Support
 - 🛒 Compatible with Snipcart
 - 🗺️ Google Maps support
 - 🚀 Google Page Speed optimized (80%)
@@ -48,12 +48,13 @@
 - 📝 Blog Single Page
 - 📞 Contact Page
 - 🔒 Terms and Condition Page
+- 🔒 Privacy & Cookie Page
 
-## 🖥️Local development
+## 🖥️ Local development
 
 ```bash
 # clone the repository
-git clone git@github.com:themefisher/hargo-hugo.git
+git clone git@github.com:hb-sec-upwork/hb-sec-cmp-mvp.git
 
 # setup project
 $ npm run project-setup
@@ -63,10 +64,9 @@ $ npm run dev
 ```
 
 ## ⚙️Deployment and hosting
-Currently Deploying on Netlify. Attempting to deploy on Github Pages
+Deploying on Github Pages
 
-[![
-Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/hargo-hugo)
+[![GHPage](https://hb-sec-upwork.github.io/hb-sec-cmp-mvp/)
 
 
 <!-- reporting issue -->
