@@ -12,5 +12,11 @@
     "test:example": "cd exampleSite; hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
     "project-setup": "node ./scripts/projectSetup.js",
     "theme-setup": "node ./scripts/themeSetup.js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "hugo-extended": "^0.122.0",
+    "postcss": "^8.4.34",
+    "postcss-cli": "^11.0.0"
   }
 }
