@@ -1,6 +1,6 @@
 <h1 align=center>H&B MVP-CMP Website</h1> 
-<p align=center> This is a HUGO framework based website which is to be used as a sandbox environment to test out CMPs</p>
-<h2 align="center"><a target="_blank" href="https://hb-sec-upwork.github.io/hb-sec-cmp-mvp/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fhb-sec-upwork.github.io%2Fhb-sec-cmp-mvp%2F&form_factor=desktop">Page Speed (80%)🚀</a> </h2>
+<p align=center> This is a HUGO framework based website which is to be used as a sandbox environment to test out CMP - KETCH</p>
+<h2 align="center"><a target="_blank" href="https://hb-sec-upwork.github.io/hb-sec-cmp-mvp-ketch/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fhb-sec-upwork.github.io%2Fhb-sec-cmp-mvp%2F&form_factor=desktop">Page Speed (80%)🚀</a> </h2>
 
 
 
@@ -54,7 +54,7 @@
 
 ```bash
 # clone the repository
-git clone git@github.com:hb-sec-upwork/hb-sec-cmp-mvp.git
+git clone git@github.com:hb-sec-upwork/hb-sec-cmp-mvp-ketch.git
 
 # setup project
 $ npm run project-setup
@@ -66,16 +66,16 @@ $ npm run dev
 ## ⚙️Deployment and hosting
 Deploying on Github Pages
 
-[GH Actions](https://github.com/hb-sec-upwork/hb-sec-cmp-mvp/actions/workflows/main.yml)
-[GH Live](https://hb-sec-upwork.github.io/hb-sec-cmp-mvp/)
+[GH Actions](https://github.com/hb-sec-upwork/hb-sec-cmp-mvp-ketch/actions/workflows/main.yml)
+[GH Live](https://hb-sec-upwork.github.io/hb-sec-cmp-mvp-ketch/)
 
 
 <!-- reporting issue -->
 ## 🐞Reporting Issues
 We use GitHub Issues as the official bug tracker for this project. Please Search [existing
-issues](https://github.com/hb-sec-upwork/hb-sec-cmp-mvp/issues). Someone may have already reported the same problem.
+issues](https://github.com/hb-sec-upwork/hb-sec-cmp-mvp-ketch/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
-issue](https://github.com/hb-sec-upwork/hb-sec-cmp-mvp/issues).
+issue](https://github.com/hb-sec-upwork/hb-sec-cmp-mvp-ketch/issues).
 
 
 <!-- resources -->
