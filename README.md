@@ -1,5 +1,5 @@
 <h1 align=center>H&B MVP-CMP CASSIE Website</h1> 
-<p align=center> This is a HUGO framework based website which is to be used as a sandbox environment to test out CMP - CASSIE</p>
+<p align=center> This is a HUGO framework based website used as a sandbox environment to test out CMP - CASSIE</p>
 <h2 align="center"><a target="_blank" href="https://hb-sec-upwork.github.io/hb-sec-cmp-mvp-cassie/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fhb-sec-upwork.github.io%2Fhb-sec-cmp-mvp-cassie%2F&form_factor=desktop">Page Speed (80%)🚀</a> </h2>
 
 
