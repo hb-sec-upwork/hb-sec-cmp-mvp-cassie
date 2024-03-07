@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://hb-sec-upwork.github.io/hb-sec-cmp-mvp-ketch/"
+baseURL = "https://hb-sec-upwork.github.io/hb-sec-cmp-mvp-cassie/"
 languageCode = "en"
-title = "H&B Ketch"
+title = "H&B Cassie"
 theme = "hb-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "GMT"
