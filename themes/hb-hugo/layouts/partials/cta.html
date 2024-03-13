@@ -33,7 +33,7 @@
             <div class="modal-content">
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Preference Widgets</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <!-- Modal Body -->
@@ -97,34 +97,24 @@
         document.addEventListener("DOMContentLoaded", function (event) {
             GetWidget("1", "3DAB0012-C287-4465-816A-2222F1621AFC", "65768D5A-4A67-4177-899E-73BAB91EB777", "PrefWidget", "00", "")
             var CookieConsentID = checkCookie("CookieConsentID")
-
-            // setTimeout(
-            //     document.querySelectorAll('select').forEach((el) => {
-            //         el.classList.add('form-select')
-            //     }), 500
-            // );
-
         });
     </script>
 
-    <!-- ########### -->
-    <!-- Widget Save -->
-    <!-- ########### -->
     <script type="text/javascript">
-        var form = document.forms[0]; //Change this to correspond to your form. The form's submit button cannot be called "submit"
+        var form = document.forms[0];
 
         form.addEventListener("submit", function (e) {
-            e.preventDefault(); //Intercept form submit and run SaveWidget()
+            e.preventDefault(); 
             SaveWidget('1', '3DAB0012-C287-4465-816A-2222F1621AFC', 'PrefWidget');
         });
 
         function SaveWidget(FormID, LicenseID, DivID) {
             var PostURL = 'https://wscript-irl-uat.cassiecloud.com/widgetsapi/submit';
-            var ObjectArray = []; // Define an empty Object Array
-            var RecordObject = {}; // Define an empty Record Object for holding data
+            var ObjectArray = []; 
+            var RecordObject = {}; 
 
-            //*** Scrape form fields for matching ***//
-            RecordObject.DivID = DivID; // This is the name of the container that holds the Cassie widget.
+            
+            RecordObject.DivID = DivID; 
             RecordObject.LanguageCode = cassieWidgetLanguageCode;
 
             if (document.getElementsByName("forename")[0] != undefined) {
@@ -143,7 +133,7 @@
             } else {
                 RecordObject.Email1 = "";
             }
-            //If we have a cookie preference already saved for this record, then add it to the record object for processing
+            
             var visitGuid = document.cookie.replace(/(?:(?:^|.*;\s*)SyrenisGuid_.+?\s*\=\s*([^;]*).*$)|^.*$/, "$1");
             if (visitGuid != "") {
                 RecordObject.VisitGUID = visitGuid;
@@ -152,7 +142,7 @@
             RecordObject.SourceCode = "Website";
             RecordObject.ResponseChannel = "Initial Engagement";
             RecordObject.PrivacyPolicyID = 1
-            //*** Process preferences ***//
+           
             // Add preferences to RecordObject, and RecordObject to ObjectArray
             RecordObject.Preferences = GetPreferencesArray();
             ObjectArray.push(RecordObject);
