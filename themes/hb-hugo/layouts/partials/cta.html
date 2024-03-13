@@ -21,3 +21,158 @@
 {{ end }}
 {{ end }}
 <!-- /call to action -->
+<body class="d-flex flex-column h-100">
+    <!-- Button to open the modal -->
+    <div class="web_form_btn text-center mt-5">
+        <button class="ot-open-webform btn-light btn mybtnclass" style="border-color:#5AB51E;" onclick="openModal()">Marketing Web Form</button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <!-- Your form content here -->
+                    <form id="form" method="post">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-lg-6">
+                                  <div class="contentview-body">
+                                      <!-- Row 1 -->
+                                      <div class="row mb-3">
+                                          <div class="col-lg-12">
+                                              <h6>Personal Details</h6>
+                                              <div class="row mb-1">
+                                                  <label for="forename" class="form-label col-sm-4 col-form-label-sm">Forename</label>
+                                                  <div class="col-sm-8">
+                                                      <input type="text"
+                                                          class="form-control pref-parameter rounded-0 bg-body-tertiary" id="forename"
+                                                          name="forename" />
+                                                  </div>
+                                              </div>
+                                              <div class="row mb-1">
+                                                  <label for="surname" class="form-label col-sm-4 col-form-label-sm">Surname</label>
+                                                  <div class="col-sm-8">
+                                                      <input type="text"
+                                                          class="form-control pref-parameter rounded-0 bg-body-tertiary" id="surname"
+                                                          name="surname" />
+                                                  </div>
+                                              </div>
+                                              <div class="row mb-1">
+                                                  <label for="email1" class="form-label col-sm-4 col-form-label-sm">Email 1</label>
+                                                  <div class="col-sm-8">
+                                                      <input type="text"
+                                                          class="form-control pref-parameter rounded-0 bg-body-tertiary" id="email1"
+                                                          name="email1" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                  <div class="contentview-body">
+                                      <div id="PrefWidget"></div>
+                                      <hr>
+                                      <button class="btn btn-secondary rounded-0" type="submit">Submit</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://wscript-cdn-irl-uat.cassiecloud.com/widget.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function (event) {
+            GetWidget("1", "3DAB0012-C287-4465-816A-2222F1621AFC", "65768D5A-4A67-4177-899E-73BAB91EB777", "PrefWidget", "00", "")
+            var CookieConsentID = checkCookie("CookieConsentID")
+        });
+    </script>
+
+    <script type="text/javascript">
+        var form = document.forms[0];
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault(); 
+            SaveWidget('1', '3DAB0012-C287-4465-816A-2222F1621AFC', 'PrefWidget');
+        });
+
+        function SaveWidget(FormID, LicenseID, DivID) {
+            var PostURL = 'https://wscript-irl-uat.cassiecloud.com/widgetsapi/submit';
+            var ObjectArray = []; 
+            var RecordObject = {}; 
+
+            
+            RecordObject.DivID = DivID; 
+            RecordObject.LanguageCode = cassieWidgetLanguageCode;
+
+            if (document.getElementsByName("forename")[0] != undefined) {
+                RecordObject.Forename = document.getElementsByName("forename")[0].value;
+            } else {
+                RecordObject.Forename = "";
+            }
+            if (document.getElementsByName("surname")[0] != undefined) {
+                RecordObject.Surname = document.getElementsByName("surname")[0].value;
+            } else {
+                RecordObject.Surname = "";
+            }
+            if (document.getElementsByName("email1")[0] != undefined) {
+                RecordObject.Email1 = document.getElementsByName("email1")[0].value;
+                RecordObject.Email1 = encodeURIComponent(RecordObject.Email1);
+            } else {
+                RecordObject.Email1 = "";
+            }
+            
+            var visitGuid = document.cookie.replace(/(?:(?:^|.*;\s*)SyrenisGuid_.+?\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+            if (visitGuid != "") {
+                RecordObject.VisitGUID = visitGuid;
+            }
+
+            RecordObject.SourceCode = "Website";
+            RecordObject.ResponseChannel = "Initial Engagement";
+            RecordObject.PrivacyPolicyID = 1
+           
+            // Add preferences to RecordObject, and RecordObject to ObjectArray
+            RecordObject.Preferences = GetPreferencesArray();
+            ObjectArray.push(RecordObject);
+            RecordObject.FormID = FormID;
+            RecordObject.LicenseID = LicenseID;
+
+            // Post the data to the Cassie web service
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("POST", PostURL, true);
+            xmlhttp.setRequestHeader("Content-type", "application/json");
+            xmlhttp.onreadystatechange = function () {
+                if (xmlhttp.readyState === 4) {
+                    if (xmlhttp.status === 200) {
+                        //Submit form as usual
+                        form.submit();
+                    }
+                }
+            }
+            var JSONRecordObject = JSON.stringify(RecordObject);
+            xmlhttp.send(JSONRecordObject);
+        };
+    </script>
+
+    <script>
+        function openModal() {
+            // Show the modal
+            var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
+                keyboard: false
+            });
+            myModal.show();
+        }
+    </script>
+</body>
